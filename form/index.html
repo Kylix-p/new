@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic</title>
+    <link rel="stylesheet" href="CSS/Normalie.css" />
+    <link rel="stylesheet" href="CSS/Styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/1ea5430a3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/52fe89a63a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="body">
+    
+
+    <!-- ----------Contact us----------- -->
+    <section class="contact" id="contact">
+      <div class="container expert1">
+        <div class="contact__photot">
+          <img
+            class="contact__img"
+            src="Img/lady.png"
+            alt="a lady"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+          />
+        </div>
+        <div
+          class="contactus__form"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          <div class="contactus">
+            <p class="contactus__subject">Book your Appintment</p>
+            <h1 class="contactus__title">
+              send you inquiry to our export team
+            </h1>
+            <p class="contactus__desc">
+              Lorem ipsum dolor sit amet nulla turapis tellus.
+            </p>
+          </div>
+
+          <form action="#" class="contact__form">
+            <div class="name__family">
+              <div class="specifications">
+                <input
+                  class="specifications__input"
+                  type="text"
+                  placeholder="First name"
+                  required
+                  src="Img/unsplash.png"
+                  alt="unsplash"
+                  class="video__img"
+                />
+                <span class="name-msg style-input-msg"></span>
+              </div>
+              <div class="specifications1">
+                <input
+                  class="specifications__input last-input"
+                  type="text"
+                  placeholder="Last name"
+                  required
+                />
+                <span class="lastname-msg style-input-msg"></span>
+              </div>
+            </div>
+
+            <input
+              class="contact__input"
+              type="text"
+              placeholder="Email address"
+              required
+            />
+            <span class="email-msg style-input-msg"></span>
+
+            <input
+              class="contact__input subject-msg"
+              type="text"
+              placeholder="Subject message"
+              required
+            />
+            <span class="subj-msg style-input-msg"></span>
+
+            <textarea
+              class="inquiry__input"
+              type="text"
+              placeholder="Your inquiry here"
+              required
+            ></textarea>
+            <span class="inquriy-msg style-input-msg"></span>
+
+            <button id="sprcial-button" class="specifications__btn btn">
+              Book Appointment
+            </button>
+            <span class="sing-msg"></span>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- --------Script--------- -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="JS/Scroll.js"></script>
+    <script src="JS/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".boxes1"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+    <script src="JS/index.js"></script>
+    <script src="JS/btn.js"></script>
+    <script src="JS/hamburger.js"></script>
+    <script src="Js/main.js"></script>
+    <!-- --------End of Script--------- -->
+  </body>
+</html>
